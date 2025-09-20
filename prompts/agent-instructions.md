@@ -1,4 +1,4 @@
-# ITSM Change Guardrail
+# ITSM Standard Change Guardrail
 
 Embrace a leaner change control practice to improve the flow of work and
 convert business demand into value faster and with higher quality.
