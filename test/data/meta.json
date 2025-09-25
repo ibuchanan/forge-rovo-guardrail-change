@@ -1,0 +1,840 @@
+{
+  "fields": {
+    "issuetype": {
+      "required": true,
+      "schema": { "type": "issuetype", "system": "issuetype" },
+      "name": "Issue Type",
+      "key": "issuetype",
+      "operations": [],
+      "allowedValues": [
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/issuetype/10009",
+          "id": "10009",
+          "description": "Created by Jira Service Management.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/2/universal_avatar/view/type/issuetype/avatar/10554?size=medium",
+          "name": "[System] Change",
+          "subtask": false,
+          "avatarId": 10554,
+          "hierarchyLevel": 0
+        }
+      ]
+    },
+    "parent": {
+      "required": false,
+      "schema": { "type": "issuelink", "system": "parent" },
+      "name": "Parent",
+      "key": "parent",
+      "hasDefaultValue": false,
+      "operations": ["set"]
+    },
+    "components": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "component",
+        "system": "components"
+      },
+      "name": "Components",
+      "key": "components",
+      "operations": ["add", "set", "remove"],
+      "allowedValues": [
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10016",
+          "id": "10016",
+          "name": "Active Directory",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10017",
+          "id": "10017",
+          "name": "Analytics and Reporting Service",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10018",
+          "id": "10018",
+          "name": "Billing Services",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10019",
+          "id": "10019",
+          "name": "Cloud Storage Services",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10020",
+          "id": "10020",
+          "name": "Data Center Services",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10021",
+          "id": "10021",
+          "name": "Email and Collaboration Services",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10022",
+          "id": "10022",
+          "name": "Financial Services",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10023",
+          "id": "10023",
+          "name": "HR Services",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10024",
+          "id": "10024",
+          "name": "Intranet",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10025",
+          "id": "10025",
+          "name": "Jira",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10026",
+          "id": "10026",
+          "name": "Office Network",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10027",
+          "id": "10027",
+          "name": "Payroll Services",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10028",
+          "id": "10028",
+          "name": "Printers",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10029",
+          "id": "10029",
+          "name": "Public Website",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10030",
+          "id": "10030",
+          "name": "VPN Server",
+          "description": "Created by Jira Service Management"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/component/10031",
+          "id": "10031",
+          "name": "Webstore Purchasing Services",
+          "description": "Created by Jira Service Management"
+        }
+      ]
+    },
+    "description": {
+      "required": false,
+      "schema": { "type": "string", "system": "description" },
+      "name": "Description",
+      "key": "description",
+      "operations": ["set"]
+    },
+    "customfield_10098": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "cmdb-object-field",
+        "custom": "com.atlassian.jira.plugins.cmdb:cmdb-object-cftype",
+        "customId": 10098
+      },
+      "name": "Application Impacted",
+      "key": "customfield_10098",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/servicedesk/cmdb/1/field/customfield_10098/config/10209/autocomplete?",
+      "operations": ["set"],
+      "configuration": {
+        "multiple": true,
+        "attributesIncludedInAutoCompleteSearch": ["Name"],
+        "isInsightAvailable": true
+      }
+    },
+    "customfield_10099": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "cmdb-object-field",
+        "custom": "com.atlassian.jira.plugins.cmdb:cmdb-object-cftype",
+        "customId": 10099
+      },
+      "name": "Standard Change",
+      "key": "customfield_10099",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/servicedesk/cmdb/1/field/customfield_10099/config/10210/autocomplete?",
+      "operations": ["set"],
+      "configuration": {
+        "multiple": false,
+        "attributesIncludedInAutoCompleteSearch": ["Name"],
+        "isInsightAvailable": true
+      }
+    },
+    "customfield_10033": {
+      "required": false,
+      "schema": {
+        "type": "sd-request-lang",
+        "custom": "com.atlassian.servicedesk.servicedesk-lingo-integration-plugin:sd-request-language",
+        "customId": 10033
+      },
+      "name": "Request language",
+      "key": "customfield_10033",
+      "operations": [],
+      "allowedValues": [{ "languageCode": "en", "displayName": "English" }]
+    },
+    "customfield_10034": {
+      "required": false,
+      "schema": {
+        "type": "option",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+        "customId": 10034
+      },
+      "name": "Urgency",
+      "key": "customfield_10034",
+      "operations": ["set"],
+      "allowedValues": [
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10020",
+          "value": "Critical",
+          "id": "10020"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10021",
+          "value": "High",
+          "id": "10021"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10022",
+          "value": "Medium",
+          "id": "10022"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10023",
+          "value": "Low",
+          "id": "10023"
+        }
+      ]
+    },
+    "customfield_10111": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "cmdb-object-field",
+        "custom": "com.atlassian.jira.plugins.cmdb:cmdb-object-cftype",
+        "customId": 10111
+      },
+      "name": "Target Device",
+      "key": "customfield_10111",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/servicedesk/cmdb/1/field/customfield_10111/config/10222/autocomplete?",
+      "operations": ["set"],
+      "configuration": {
+        "multiple": false,
+        "attributesIncludedInAutoCompleteSearch": ["Name", "Owner", "Status"],
+        "isInsightAvailable": true
+      }
+    },
+    "customfield_10112": {
+      "required": false,
+      "schema": {
+        "type": "date",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+        "customId": 10112
+      },
+      "name": "New Date",
+      "key": "customfield_10112",
+      "operations": ["set"]
+    },
+    "customfield_10113": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "cmdb-object-field",
+        "custom": "com.atlassian.jira.plugins.cmdb:cmdb-object-cftype",
+        "customId": 10113
+      },
+      "name": "Application to Change",
+      "key": "customfield_10113",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/servicedesk/cmdb/1/field/customfield_10113/config/10224/autocomplete?",
+      "operations": ["set"],
+      "configuration": {
+        "multiple": false,
+        "attributesIncludedInAutoCompleteSearch": ["Name"],
+        "isInsightAvailable": true
+      }
+    },
+    "customfield_10179": {
+      "required": false,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+        "customId": 10179
+      },
+      "name": "Details",
+      "key": "customfield_10179",
+      "operations": ["set"]
+    },
+    "customfield_10114": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "cmdb-object-field",
+        "custom": "com.atlassian.jira.plugins.cmdb:cmdb-object-cftype",
+        "customId": 10114
+      },
+      "name": "Associated Tasks",
+      "key": "customfield_10114",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/servicedesk/cmdb/1/field/customfield_10114/config/10225/autocomplete?",
+      "operations": ["set"],
+      "configuration": {
+        "multiple": true,
+        "attributesIncludedInAutoCompleteSearch": ["Name"],
+        "isInsightAvailable": true
+      }
+    },
+    "customfield_10027": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "user",
+        "custom": "com.atlassian.servicedesk:sd-request-participants",
+        "customId": 10027
+      },
+      "name": "Request participants",
+      "key": "customfield_10027",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/servicedesk/1/servicedesk/sd-user-search/participants?issueKey=ITO-9623&query=",
+      "operations": ["add", "set", "remove"]
+    },
+    "customfield_10005": {
+      "required": false,
+      "schema": {
+        "type": "option",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+        "customId": 10005
+      },
+      "name": "Change type",
+      "key": "customfield_10005",
+      "operations": ["set"],
+      "allowedValues": [
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10004",
+          "value": "Standard",
+          "id": "10004"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10005",
+          "value": "Normal",
+          "id": "10005"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10006",
+          "value": "Emergency",
+          "id": "10006"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10146",
+          "value": "Freeze Period",
+          "id": "10146"
+        }
+      ]
+    },
+    "customfield_10104": {
+      "required": false,
+      "schema": {
+        "type": "option",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons",
+        "customId": 10104
+      },
+      "name": "Create Tasks",
+      "key": "customfield_10104",
+      "operations": ["set"],
+      "allowedValues": [
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10135",
+          "value": "Yes",
+          "id": "10135"
+        }
+      ]
+    },
+    "customfield_10006": {
+      "required": false,
+      "schema": {
+        "type": "option",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+        "customId": 10006
+      },
+      "name": "Change risk",
+      "key": "customfield_10006",
+      "operations": ["set"],
+      "allowedValues": [
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10007",
+          "value": "Critical",
+          "id": "10007"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10008",
+          "value": "High",
+          "id": "10008"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10009",
+          "value": "Medium",
+          "id": "10009"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10010",
+          "value": "Low",
+          "id": "10010"
+        }
+      ]
+    },
+    "customfield_10007": {
+      "required": false,
+      "schema": {
+        "type": "option",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+        "customId": 10007
+      },
+      "name": "Change reason",
+      "key": "customfield_10007",
+      "operations": ["set"],
+      "allowedValues": [
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10011",
+          "value": "Repair",
+          "id": "10011"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10012",
+          "value": "Upgrade",
+          "id": "10012"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10013",
+          "value": "Maintenance",
+          "id": "10013"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10014",
+          "value": "New functionality",
+          "id": "10014"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10143",
+          "value": "Software Change",
+          "id": "10143"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10015",
+          "value": "Other",
+          "id": "10015"
+        }
+      ]
+    },
+    "customfield_10128": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "string",
+        "custom": "com.atlassian.jira.modules.servicemanagement.responders-entity:responders-entity-field-cftype",
+        "customId": 10128
+      },
+      "name": "Responders",
+      "key": "customfield_10128",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/gateway/api/jsd/escalator/639c4c97-0caf-459b-bc27-da6250725163/api/responders/search?query=",
+      "operations": ["set", "add", "remove"]
+    },
+    "customfield_10008": {
+      "required": false,
+      "schema": {
+        "type": "datetime",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+        "customId": 10008
+      },
+      "name": "Change start date",
+      "key": "customfield_10008",
+      "operations": ["set"]
+    },
+    "attachment": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "attachment",
+        "system": "attachment"
+      },
+      "name": "Attachment",
+      "key": "attachment",
+      "operations": ["set", "copy"]
+    },
+    "customfield_10009": {
+      "required": false,
+      "schema": {
+        "type": "datetime",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+        "customId": 10009
+      },
+      "name": "Change completion date",
+      "key": "customfield_10009",
+      "operations": ["set"]
+    },
+    "summary": {
+      "required": true,
+      "schema": { "type": "string", "system": "summary" },
+      "name": "Summary",
+      "key": "summary",
+      "operations": ["set"]
+    },
+    "customfield_10080": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "group",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multigrouppicker",
+        "customId": 10080
+      },
+      "name": "Approver groups",
+      "key": "customfield_10080",
+      "operations": ["add", "set", "remove"]
+    },
+    "customfield_10081": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "cmdb-object-field",
+        "custom": "com.atlassian.jira.plugins.cmdb:cmdb-object-cftype",
+        "customId": 10081
+      },
+      "name": "Device",
+      "key": "customfield_10081",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/servicedesk/cmdb/1/field/customfield_10081/config/10190/autocomplete?",
+      "operations": ["set"],
+      "configuration": {
+        "multiple": false,
+        "attributesIncludedInAutoCompleteSearch": [
+          "Name",
+          "Serial Number",
+          "Manufacturer",
+          "Model"
+        ],
+        "isInsightAvailable": true
+      }
+    },
+    "customfield_10042": {
+      "required": false,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+        "customId": 10042
+      },
+      "name": "Implementation plan",
+      "key": "customfield_10042",
+      "operations": ["set"]
+    },
+    "reporter": {
+      "required": false,
+      "schema": { "type": "user", "system": "reporter" },
+      "name": "Reporter",
+      "key": "reporter",
+      "autoCompleteUrl": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/user/recommend?context=Reporter&issueKey=ITO-9623",
+      "operations": ["set"]
+    },
+    "customfield_10043": {
+      "required": false,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+        "customId": 10043
+      },
+      "name": "Backout plan",
+      "key": "customfield_10043",
+      "operations": ["set"]
+    },
+    "customfield_10044": {
+      "required": false,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+        "customId": 10044
+      },
+      "name": "Test plan",
+      "key": "customfield_10044",
+      "operations": ["set"]
+    },
+    "priority": {
+      "required": false,
+      "schema": { "type": "priority", "system": "priority" },
+      "name": "Priority",
+      "key": "priority",
+      "operations": ["set"],
+      "allowedValues": [
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/priority/10000",
+          "iconUrl": "https://one-atlas-iire.atlassian.net/images/icons/priorities/blocker_new.svg",
+          "name": "Critical",
+          "id": "10000"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/priority/1",
+          "iconUrl": "https://one-atlas-iire.atlassian.net/images/icons/priorities/highest_new.svg",
+          "name": "Highest",
+          "id": "1"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/priority/2",
+          "iconUrl": "https://one-atlas-iire.atlassian.net/images/icons/priorities/high_new.svg",
+          "name": "High",
+          "id": "2"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/priority/3",
+          "iconUrl": "https://one-atlas-iire.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/priority/4",
+          "iconUrl": "https://one-atlas-iire.atlassian.net/images/icons/priorities/low.svg",
+          "name": "Low",
+          "id": "4"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/priority/5",
+          "iconUrl": "https://one-atlas-iire.atlassian.net/images/icons/priorities/lowest_new.svg",
+          "name": "Lowest",
+          "id": "5"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/priority/10001",
+          "iconUrl": "https://one-atlas-iire.atlassian.net/images/icons/priorities/minor_new.svg",
+          "name": "Informational",
+          "id": "10001"
+        }
+      ]
+    },
+    "customfield_10045": {
+      "required": false,
+      "schema": {
+        "type": "datetime",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+        "customId": 10045
+      },
+      "name": "Planned start",
+      "key": "customfield_10045",
+      "operations": ["set"]
+    },
+    "customfield_10001": {
+      "required": false,
+      "schema": {
+        "type": "team",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:atlassian-team",
+        "customId": 10001,
+        "configuration": {
+          "com.atlassian.jira.plugin.system.customfieldtypes:atlassian-team": true
+        }
+      },
+      "name": "Team",
+      "key": "customfield_10001",
+      "autoCompleteUrl": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/gateway/api/v1/recommendations",
+      "operations": ["set"]
+    },
+    "customfield_10002": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "sd-customerorganization",
+        "custom": "com.atlassian.servicedesk:sd-customer-organizations",
+        "customId": 10002
+      },
+      "name": "Organizations",
+      "key": "customfield_10002",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/servicedesk/1/organisations/project/10003/search?query=",
+      "operations": ["add", "set", "remove"]
+    },
+    "customfield_10046": {
+      "required": false,
+      "schema": {
+        "type": "datetime",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+        "customId": 10046
+      },
+      "name": "Planned end",
+      "key": "customfield_10046",
+      "operations": ["set"]
+    },
+    "customfield_10101": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "cmdb-object-field",
+        "custom": "com.atlassian.jira.plugins.cmdb:cmdb-object-cftype",
+        "customId": 10101
+      },
+      "name": "Risk: Business Hours",
+      "key": "customfield_10101",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/servicedesk/cmdb/1/field/customfield_10101/config/10212/autocomplete?",
+      "operations": ["set"],
+      "configuration": {
+        "multiple": false,
+        "attributesIncludedInAutoCompleteSearch": ["Name", "Detail"],
+        "isInsightAvailable": true
+      }
+    },
+    "customfield_10003": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "user",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multiuserpicker",
+        "customId": 10003
+      },
+      "name": "Approvers",
+      "key": "customfield_10003",
+      "autoCompleteUrl": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/1.0/users/picker?fieldName=customfield_10003&showAvatar=true&query=",
+      "operations": ["add", "set", "remove"]
+    },
+    "customfield_10102": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "cmdb-object-field",
+        "custom": "com.atlassian.jira.plugins.cmdb:cmdb-object-cftype",
+        "customId": 10102
+      },
+      "name": "Risk: Rollback",
+      "key": "customfield_10102",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/servicedesk/cmdb/1/field/customfield_10102/config/10213/autocomplete?",
+      "operations": ["set"],
+      "configuration": {
+        "multiple": false,
+        "attributesIncludedInAutoCompleteSearch": ["Name", "Detail"],
+        "isInsightAvailable": true
+      }
+    },
+    "customfield_10124": {
+      "required": false,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:url",
+        "customId": 10124
+      },
+      "name": "URL",
+      "key": "customfield_10124",
+      "operations": ["set"]
+    },
+    "labels": {
+      "required": false,
+      "schema": { "type": "array", "items": "string", "system": "labels" },
+      "name": "Labels",
+      "key": "labels",
+      "autoCompleteUrl": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/1.0/labels/65797/suggest?query=",
+      "operations": ["add", "set", "remove"]
+    },
+    "customfield_10004": {
+      "required": false,
+      "schema": {
+        "type": "option",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+        "customId": 10004
+      },
+      "name": "Impact",
+      "key": "customfield_10004",
+      "operations": ["set"],
+      "allowedValues": [
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10000",
+          "value": "Extensive / Widespread",
+          "id": "10000"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10001",
+          "value": "Significant / Large",
+          "id": "10001"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10002",
+          "value": "Moderate / Limited",
+          "id": "10002"
+        },
+        {
+          "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/customFieldOption/10003",
+          "value": "Minor / Localized",
+          "id": "10003"
+        }
+      ]
+    },
+    "customfield_10103": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "cmdb-object-field",
+        "custom": "com.atlassian.jira.plugins.cmdb:cmdb-object-cftype",
+        "customId": 10103
+      },
+      "name": "Risk: Testing",
+      "key": "customfield_10103",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/servicedesk/cmdb/1/field/customfield_10103/config/10214/autocomplete?",
+      "operations": ["set"],
+      "configuration": {
+        "multiple": false,
+        "attributesIncludedInAutoCompleteSearch": ["Name", "Detail"],
+        "isInsightAvailable": true
+      }
+    },
+    "customfield_10039": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "service-entity-field",
+        "custom": "com.atlassian.jira.plugins.service-entity:service-entity-field-cftype",
+        "customId": 10039
+      },
+      "name": "Affected services",
+      "key": "customfield_10039",
+      "autoCompleteUrl": "https://one-atlas-iire.atlassian.net/rest/service-registry-api/service?query=",
+      "operations": ["set"]
+    },
+    "environment": {
+      "required": false,
+      "schema": { "type": "string", "system": "environment" },
+      "name": "Environment",
+      "key": "environment",
+      "operations": ["set"]
+    },
+    "issuelinks": {
+      "required": false,
+      "schema": {
+        "type": "array",
+        "items": "issuelinks",
+        "system": "issuelinks"
+      },
+      "name": "Linked Issues",
+      "key": "issuelinks",
+      "autoCompleteUrl": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/issue/picker?currentProjectId=&showSubTaskParent=true&showSubTasks=true&currentIssueKey=ITO-9623&query=",
+      "operations": ["add", "copy"]
+    },
+    "comment": {
+      "required": false,
+      "schema": { "type": "comments-page", "system": "comment" },
+      "name": "Comment",
+      "key": "comment",
+      "operations": ["add", "edit", "remove"]
+    },
+    "assignee": {
+      "required": false,
+      "schema": { "type": "user", "system": "assignee" },
+      "name": "Assignee",
+      "key": "assignee",
+      "autoCompleteUrl": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/user/assignable/search?issueKey=ITO-9623&query=",
+      "operations": ["set"]
+    }
+  }
+}

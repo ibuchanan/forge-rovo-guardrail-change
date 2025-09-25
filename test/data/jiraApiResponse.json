@@ -1,0 +1,28 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "65797",
+  "self": "https://api.atlassian.com/ex/jira/639c4c97-0caf-459b-bc27-da6250725163/rest/api/3/issue/65797",
+  "key": "ITO-9623",
+  "renderedFields": {
+    "summary": null,
+    "description": "<p>This change will deploy the latest monthly security patch to the production web application using the pre-approved continuous delivery pipeline. The deployment process is fully automated, tested, and has been executed successfully in previous cycles. No manual intervention is required unless an alert is triggered.</p>"
+  },
+  "fields": {
+    "summary": "Automated Deployment of Monthly Security Patch to Web Application",
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "This change will deploy the latest monthly security patch to the production web application using the pre-approved continuous delivery pipeline. The deployment process is fully automated, tested, and has been executed successfully in previous cycles. No manual intervention is required unless an alert is triggered."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

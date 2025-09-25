@@ -50,7 +50,7 @@ export async function lifecycle(
   console.log(`    event type: ${event.eventType}`);
   console.log(`    performed by: ${account}`);
   console.log(`    into cloud id: ${event.context.cloudId}`);
-  console.log(`    app version: ${event.app.version}`);
+  console.log(`    app version: ${event.app?.version}`);
   console.log(`    app installation id: ${event.id}`);
   // console.log(`Runtime versions ${JSON.stringify(process.versions)}`);
   console.log(`Node.js runtime version ${process.versions.node}`);

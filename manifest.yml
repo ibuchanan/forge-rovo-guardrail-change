@@ -12,6 +12,7 @@ modules:
       actions:
         - log-assessment
         - fetch-change-content
+        - fetch-meta
       conversationStarters:
         - Assess the quality of this change request
       prompt: resource:agent-prompts;agent-instructions.md
@@ -44,6 +45,19 @@ modules:
           type: string
           description: issue key to extract
           required: true
+    - key: fetch-meta
+      name: Fetch metadata for issue
+      description: >
+        For a given issue key,
+        extract field metadata
+      actionVerb: GET
+      function: fetchMetaForIssue
+      inputs:
+        issue:
+          title: Issue Key
+          type: string
+          description: issue key to extract
+          required: true
   trigger:
     - key: trigger-lifecycle
       events:
@@ -56,14 +70,16 @@ modules:
       response:
         type: dynamic
   function:
-    - key: messageLogger
-      handler: index.messageLogger
+    - key: logAssessment
+      handler: index.logAssessment
     - key: trigger
       handler: index.trigger
     - key: lifecycle-handler
       handler: index.lifecycle
     - key: fetchContentFromChange
       handler: index.fetchContentFromChange
+    - key: fetchMetaForIssue
+      handler: index.fetchMetaForIssue
 resources:
   - key: agent-prompts
     path: prompts

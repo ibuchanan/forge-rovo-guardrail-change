@@ -1,0 +1,6 @@
+{
+  "name": "Issue Type",
+  "type": 1,
+  "key": "issuetype",
+  "schema": { "type": "issuetype", "system": "issuetype" }
+}

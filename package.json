@@ -18,7 +18,9 @@
     "view": "promptfoo view"
   },
   "dependencies": {
-    "@forge/api": "^6.1.1"
+    "@forge/api": "^6.1.1",
+    "@types/jmespath": "^0.15.2",
+    "jmespath": "^0.16.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.4",
@@ -28,8 +30,5 @@
     "typescript": "^5.9.2",
     "vitest": "^3.2.4",
     "yaml": "^2.8.1"
-  },
-  "engines": {
-    "node": "22.19.0"
   }
 }
